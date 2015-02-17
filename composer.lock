@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6e6c4050b77cc97107464f67d5bc861b",
+    "packages": [
+        {
+            "name": "kittinan/crypt-time-php",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kittinan/CryptTime-PHP.git",
+                "reference": "143ed9821be266ae3f11565fd5b68a4618c99699"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kittinan/CryptTime-PHP/zipball/143ed9821be266ae3f11565fd5b68a4618c99699",
+                "reference": "143ed9821be266ae3f11565fd5b68a4618c99699",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "KS": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "CryptTime-PHP is a simple class to encrypt string with timeout. the encryption use AES128/PKCS7. ",
+            "time": "2014-09-10 17:41:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

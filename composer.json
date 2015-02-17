@@ -1,0 +1,10 @@
+{
+  "config": {
+    "vendor-dir": "src/Vendor",
+    "preferred-install": "dist"
+  },
+  
+  "require": {
+    "kittinan/crypt-time-php": "1.0.0"
+  }
+}
